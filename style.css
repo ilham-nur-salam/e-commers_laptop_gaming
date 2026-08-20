@@ -445,12 +445,13 @@ header nav a{
     }
 
 .carousel .list .item:nth-child(2) .introduce{
-    position: absolute !important;
-    top: 15% !important;
-    margin-top: -50px;
-    left: 20px !important;
+    position: relative !important;
+    top: auto !important;
+    margin-top: 0 !important;
+    left: auto !important;
     transform: none !important;
     z-index: 100;
+    padding: 20px 20px 0 20px !important;
 }
 
     .carousel .list .item:nth-child(2) .introduce .title{
@@ -464,18 +465,23 @@ header nav a{
     }
 
     .carousel .list .item:nth-child(2) .introduce .des{
-    top: 50% !important;
-    width: 65% !important;       
-     max-width: 230px;
-        line-height: 1.5;
+    position: relative !important;
+    top: auto !important;
+    width: 100% !important;       
+    max-width: 100%;
+    line-height: 1.5;
+    margin-top: 10px !important;
     }
 
   .carousel .list .item img{
-    width: 55% !important;
-    max-width: 280px;
-    top: 20% !important;
-    right: 0 !important;
-    transform: translate(50%, -50%) !important;
+    width: 80% !important;
+    max-width: 100%;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    transform: none !important;
+    margin-bottom: 20px !important;
+    order: -1;
 }
 
     .arrows{
